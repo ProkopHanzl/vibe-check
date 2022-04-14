@@ -1,4 +1,6 @@
-body, html, .bodyContainerDiv {
+body,
+html,
+.bodyContainerDiv {
 	min-height: 100vh;
 	margin: 0px;
 }
