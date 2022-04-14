@@ -1,0 +1,135 @@
+body, html, .bodyContainerDiv {
+	min-height: 100vh;
+	margin: 0px;
+}
+
+.bodyContainerDiv {
+	display: table;
+	width: 100vw;
+}
+
+body {
+	background-color: #fdfd90;
+	font-family: Montserrat;
+	font-weight: bold;
+	letter-spacing: 4px;
+}
+
+.bodyDiv {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#startButton {
+	height: 80px;
+	font-size: 2em;
+	font-family: Montserrat;
+	font-weight: bold;
+	background-color: #fdfd90;
+	border: 1px dashed #000;
+	padding-left: 32px;
+	padding-right: 32px;
+	transition: 0.3s ease all;
+	position: relative;
+	top: 0px;
+	cursor: pointer;
+}
+
+#startButton:hover {
+	top: -2px;
+	background-color: #f0f088;
+}
+
+#vibeButton {
+	height: 80px;
+	font-size: 1.5em;
+	font-family: Montserrat;
+	font-weight: bold;
+	background-color: #fdfd90;
+	border: 1px dashed #000;
+	padding-left: 32px;
+	padding-right: 32px;
+	transition: 0.3s ease all;
+	cursor: pointer;
+}
+
+#vibeButton:hover {
+	top: -2px;
+	background-color: #f0f088;
+}
+
+#vibeCheckTitle {
+	position: relative;
+	top: 0px;
+	transition: 0.3s ease all;
+}
+
+#questionDiv {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 64px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	opacity: 0;
+	transition: 0.5s ease all;
+	display: none;
+}
+
+.ratingDiv {
+	display: flex;
+}
+
+.rating {
+	flex: 1;
+	line-height: 32px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.2s ease all;
+}
+
+.rating:hover {
+	background-color: #000;
+	color: #fdfd90;
+}
+
+.highlighted {
+	background-color: #000;
+	color: #fdfd90;
+}
+
+#error {
+	transition: 0.5s ease all;
+	color: #f00;
+	opacity: 0;
+}
+
+#resultsDiv {
+	position: absolute;
+	top: 0px;
+	left: 64px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	opacity: 0;
+	transition: 0.5s ease all;
+	display: none;
+	width: calc(100vw - 128px);
+	height: 100vh;
+}
+
+.resultsContainer {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	width: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.grade {
+	font-size: 1.5em;
+}
